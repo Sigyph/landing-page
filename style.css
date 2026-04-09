@@ -14,7 +14,7 @@ body{
 
     background-color: #1F2937;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .logo{
@@ -23,7 +23,7 @@ body{
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    padding-left: 150px;
+    padding-left: 200px;
 }
 
 .header ul{
@@ -32,11 +32,36 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-right: 150px;
+    padding-right: 200px;
     gap: 20px;
 }
 
-.header a{
+.header a, .secondaryText{
     text-decoration: none;
-    color: #E5E7EB;;
+    color: #E5E7EB;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    padding: 100px 200px;
+    gap: 200px;
+}
+
+.hero button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero img{
+    width: auto;
+    height: 300px;
 }
