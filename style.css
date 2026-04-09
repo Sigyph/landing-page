@@ -92,3 +92,14 @@ body{
     text-align: center;
     justify-content: space-between;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    
+    padding: 150px 300px 100px;
+}
